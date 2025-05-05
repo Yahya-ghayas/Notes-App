@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(158, 170, 166);
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4da289;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #05b782 ;
+}
+
+#notes {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.note {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.note p {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.note button {
+    margin-right: 8px;
+    background-color: #007BFF;
+}
+
+.note button:last-child {
+    background-color: #DC3545;
+}
+
+.note button:hover {
+    opacity: 0.9;
+}
